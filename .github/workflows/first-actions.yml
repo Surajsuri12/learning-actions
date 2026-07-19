@@ -8,4 +8,9 @@ jobs:
         run: echo "Hello Suraj"
       - name: Print bye
         run: echo "Done - Bye"
+      - name: Multi line commands
+        run: |
+          echo "line 1"
+          echo "line 2"
+        
     
